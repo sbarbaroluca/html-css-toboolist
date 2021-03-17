@@ -8,70 +8,90 @@
     <title>html-css-toboolist</title>
 </head>
 <body>
-    <!-- intestazione logo -->
+    <!-- testata della pagina -->
     <header>
-        <img src="img/Logo.png" alt="logo">
+        <img src="img/logo.png" alt="Logo Toboolist"
+        id="logo">
         <h1>Toboolist</h1>
     </header>
-    <!-- /intestazione logo -->
+    <!-- /testata della pagina -->
 
-
+    <!-- corpo della pagina -->
     <main>
         <div class="container">
-            <button class="btn" id="addTask">Add Task</button>
-            <button class="btn" id="addSection">Add Section</button>
+            <!-- buttons -->
+            <section id="buttons">
+                <a class="btn btn-blue" href="#">Add Task</a>
+                <a class="btn btn-grey" href="#">Add Section</a>
+            </section>
+            <!-- /buttons -->
 
-            <section class="section">
-                <h2>New Task</h2>
+            <!-- todo-list -->
+            <section id="list">
                 <ul>
                     <li>
-                        Quarterly Newsletter
-                        <span class="tag">Editorial</span>
+                        <h3>&#x25BE; New Task</h3>
+                        <ul>
+                            <li>
+                                <span class="circle ok">&check;</span> Quarterly newsletter
+                                 <span class="tag tag-type-1">Editorial</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>&#x25BE; Today</h3>
+                        <ul>
+                            <li>
+                                <span class="circle ok">&check;</span> 
+                                Recruiting blog post
+                                <span class="tag tag-type-1">Editorial</span>
+                            </li>
+                            <li>
+                                <span class="circle ok">&check;</span> 
+                                Mobile app launch
+                                <span class="tag tag-type-2">Q1 Goals</span>
+                            </li>
+                            <li>
+                                <span class="circle ko">&#x25BE;</span>
+                                Interview John H. 
+                                <span class="tag tag-type-3">Recruiting</span>
+                            </li>
+                            <li>
+                                <span class="circle ok">&check;</span>
+                                Summit update to mobile storefonts
+                                <span class="tag tag-type-4">Mobile</span> 
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>&#x25BE; Upcoming</h3>
+                        <ul>
+                            <li>
+                                <span class="circle ko">&check;</span> 
+                                Schedule meeting with Alex
+                            </li>
+                            <li>
+                                <span class="circle ok">&check;</span>
+                                Homepage refresh
+                                <span class="tag tag-type-5">Website</span> 
+                            </li>
+                            <li>
+                                <span class="circle ok">&check;</span>
+                                Onboard new Sales team members
+                                <span class="tag tag-type-6">Sales</span> 
+                            </li>
+                            <li>
+                                <span class="circle ok">&check;</span>
+                                Review editorial calendar
+                                <span class="tag tag-type-4">Editorial</span> 
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </section>
-
-            <section class="section">
-                <h2>Today</h2>
-                <ul>
-                    <li>
-                        Recruiting blog post<span class="tag">Editorial</span>
-                    </li>
-                    <li>
-                        Mobile app luaunch <span class="tag">Q1 Goals</span>
-                    </li>
-                    <li>
-                        Interview John H.<span class="tag">Recruiting</span>
-                    </li>
-                    <li>
-                        Summit update to mobile storefonts <span class="tag">Mobile</span>
-                    </li>
-                </ul>
-            </section>
-
-            <section class="section">
-                <h2>Upcoming</h2>
-                <ul>
-                    <li>
-                        Recruiting blog post<span class="tag">Editorial</span>
-                    </li>
-                    <li>
-                        Mobile app luaunch <span class="tag">Q1 Goals</span>
-                    </li>
-                    <li>
-                        Interview John H.<span class="tag">Recruiting</span>
-                    </li>
-                    <li>
-                        Summit update to mobile storefonts <span class="tag">Mobile</span>
-                    </li>
-                </ul>
-            </section>
+            <!-- /todo-list -->
         </div>
-        
-       
-        
-        
     </main>
-    
+    <!-- corpo della pagina -->
 </body>
 </html>

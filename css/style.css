@@ -5,44 +5,129 @@
 }
 
 body {
-    background-color: lightgrey;
+    background-color: #F6F8F9;
+}
+
+.btn {
+    display: inline-block;
+    height: 32px;
+    line-height: 20px;
+    padding: 5px 10px;
+    vertical-align: middle;
+    font-size: 12px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-blue{
+    background-color: #47ADF1;
+    border: 1px solid #47ADF1;
+    color: white;
+}
+
+.btn-grey {
+    background-color: white;
+    border: 1px solid #CFD4D8;
+    color: #CFD4D8;
+}
+
+.circle {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    font-size: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.ok {
+    color: green;
+    border: 1px solid green;
+}
+
+.ko {
+    font-size: 9px;
+    color: red;
+    border: 1px solid red;
+}
+
+.tag {
+    display: inline-block;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 10px;
+    font-size: 10px;
+    background-color: red;
+}
+
+.tag-type-1 {
+    background-color: #45ABEA;
+}
+
+.tag-type-2 {
+    background-color: #9C72E4;
+}
+
+.tag-type-3 {
+    background-color: #64C0A9;
+}
+
+.tag-type-4 {
+    background-color: #F29E33;
+}
+
+.tag-type-5 {
+    background-color: #D863A1;
+}
+
+.tag-type-6 {
+    background-color: #B0C926;
 }
 
 header {
-    height: 80px;
+    height: 70px;
+    line-height: 70px;
+    margin-bottom: 40px;
+    padding: 0 30px;
     background-color: white;
 }
 
+#logo {
+    height: 50px;
+    vertical-align: middle;
+}
+
+h1 {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 38px;
+    color: #021732;
+}
+
 .container {
-    height: 800px;
-    background-color:white;
     width: 70%;
-    margin:100px auto;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: white;
 }
-.tag {
-    font-size: 16px;
-    background-color: blue;
-    color: white;
-    padding: 6px;
-    border-radius: 12px;
+
+#buttons {
+    height: 51px;
+    line-height: 50px;
+    padding: 0 50px;
+    border-bottom: 1px solid #CFD4D8;
 }
+
+#list {
+    padding: 50px;
+}
+
 li {
+    line-height: 25px;
+    list-style: none;
+    padding: 10px 0;
     font-size: 18px;
-    margin: 10px 0;
-    list-style-type: none;
-}
-.section {
-    margin: 10px 0;
-    padding: 20px;
-}
-.btn {
-    padding: 6px;
-    border-radius: 6px;
-    color: white;
-}
-#addTask {
-    background-color: red;
-}
-#addSection {
-    background-color: green;
 }
